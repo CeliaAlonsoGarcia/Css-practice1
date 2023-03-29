@@ -30,8 +30,42 @@ h1 {
 }
 
 h2 {
-  padding: 5rem 1S0rem 0;
+  padding: 10rem 10rem 0;
   line-height: 4rem;
   font-weight: 600;
   font-size: 40px;
+}
+
+.container {
+  position: relative;
+  margin-top: 20rem;
+}
+.yellow {
+  background-color: #fbffa7;
+  width: 70rem;
+  height: 50rem;
+  position: absolute;
+  z-index: 3;
+  right: -3px;
+  top: 10rem;
+}
+
+.office {
+  width: 35rem;
+  height: 25rem;
+  object-fit: cover;
+  position: absolute;
+  z-index: 10;
+  top: 25rem;
+  right: 10rem;
+}
+
+.keyboard {
+  width: 45rem;
+  height: 35rem;
+  position: absolute;
+  left: 6rem;
+  object-fit: cover;
+  z-index: 15;
+  top: 0;
 }
