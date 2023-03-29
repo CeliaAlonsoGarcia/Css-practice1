@@ -1,1 +1,37 @@
+main {
+  font-family: Arial, Baskerville, monospace;
+}
 
+.top-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 40rem;
+  object-fit: cover;
+  position: relative;
+}
+
+h1 {
+  color: #ff764d;
+  font-size: 130px;
+  position: absolute;
+  top: 4rem;
+  left: 40rem;
+  font-weight: 300;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.top-text {
+  font-weight: 400;
+  padding: 0 10rem 0;
+  font-size: 25px;
+  line-height: 4rem;
+}
+
+h2 {
+  padding: 5rem 1S0rem 0;
+  line-height: 4rem;
+  font-weight: 600;
+  font-size: 40px;
+}
